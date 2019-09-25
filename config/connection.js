@@ -6,7 +6,8 @@ const conn;
 
 if (process.env.JAWSDB_URL) {
     conn = mysql.createConnection(process.env.JAWSDB_URL);
-// } else {
+} 
+// else {
 //     conn = mysql.createConnection({
 //         host: 'localhost',
 //         user: 'root',
